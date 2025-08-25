@@ -2,39 +2,88 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Before vs After - Semantic HTML</title>
-                <link rel="stylesheet" href="../assets/styles.css">
-                </head>
-                <body>
-                    <header>
-                            <h1>Before vs After: Semantic HTML</h1>
-                                    <p>Compare old HTML with new semantic HTML.</p>
-                                        </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before vs After - Semantic HTML</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Before vs After: Semantic HTML</h1>
+        <p>Compare old HTML with new semantic HTML.</p>
+    </header>
 
-                                            <main>
-                                                    <section>
-                                                                <h2>Example 1: Website Structure</h2>
-                                                                            
-                                                                                        <h3>❌ Before (Old Way)</h3>
-                                                                                                    <pre>
-                                                                                                    &lt;div&gt;
-                                                                                                      &lt;div&gt;My Website&lt;/div&gt;
-                                                                                                      &lt;/div&gt;
+    <main>
+        <section>
+            <h2>Example 1: Website Structure</h2>
+            
+            <h3>❌ Before (Old Way)</h3>
+            <pre>
+&lt;div&gt;
+  &lt;div&gt;My Website&lt;/div&gt;
+&lt;/div&gt;
 
-                                                                                                      &lt;div&gt;
-                                                                                                        &lt;div&gt;My Article&lt;/div&gt;
-                                                                                                          &lt;div&gt;This is my content...&lt;/div&gt;
-                                                                                                          &lt;/div&gt;
+&lt;div&gt;
+  &lt;div&gt;My Article&lt;/div&gt;
+  &lt;div&gt;This is my content...&lt;/div&gt;
+&lt;/div&gt;
 
-                                                                                                          &lt;div&gt;Copyright 2024&lt;/div&gt;
-                                                                                                                      </pre>
+&lt;div&gt;Copyright 2024&lt;/div&gt;
+            </pre>
 
-                                                                                                                                  <h3>✅ After (New Way)</h3>
-                                                                                                                                              <pre>
-                                                                                                                                              &lt;header&gt;
-                                                                                                                                                &lt;h1&gt;My Website&lt;/h1&gt;
-                                                                                                                                                &lt;/header&gt;
+            <h3>✅ After (New Way)</h3>
+            <pre>
+&lt;header&gt;
+  &lt;h1&gt;My Website&lt;/h1&gt;
+&lt;/header&gt;
+
+&lt;main&gt;
+  &lt;article&gt;
+    &lt;h2&gt;My Article&lt;/h2&gt;
+    &lt;p&gt;This is my content...&lt;/p&gt;
+  &lt;/article&gt;
+&lt;/main&gt;
+
+&lt;footer&gt;
+  &lt;p&gt;Copyright 2024&lt;/p&gt;
+&lt;/footer&gt;
+            </pre>
+        </section>
+
+        <section>
+            <h2>Example 2: Navigation Menu</h2>
+            
+            <h3>❌ Before (Old Way)</h3>
+            <pre>
+&lt;div&gt;
+  &lt;a href="#"&gt;Home&lt;/a&gt;
+  &lt;a href="#"&gt;About&lt;/a&gt;
+&lt;/div&gt;
+            </pre>
+
+            <h3>✅ After (New Way)</h3>
+            <pre>
+&lt;nav&gt;
+  &lt;a href="#"&gt;Home&lt;/a&gt;
+  &lt;a href="#"&gt;About&lt;/a&gt;
+&lt;/nav&gt;
+            </pre>
+        </section>
+
+        <section>
+            <h2>Why Use Semantic HTML?</h2>
+            <ul>
+                <li>Better for search engines</li>
+                <li>Helps people with disabilities</li>
+                <li>Cleaner and easier to read</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Simple HTML Guide</p>
+    </footer>
+</body>
+</html>                                                                                                                                                &lt;/header&gt;
 
                                                                                                                                                 &lt;main&gt;
                                                                                                                                                   &lt;article&gt;
