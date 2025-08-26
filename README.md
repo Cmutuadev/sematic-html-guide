@@ -10,7 +10,6 @@
 - Proper HTML5 semantic elements (`<header>`, `<main>`, `<article>`, `<aside>`, `<footer>`)
 - SEO-friendly markup structure
 - Accessibility best practices
-- WCAG compliance techniques
 - Before/after code comparisons
 
 ## 📖 Related Blog Post
